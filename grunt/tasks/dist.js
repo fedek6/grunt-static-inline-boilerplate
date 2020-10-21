@@ -1,3 +1,3 @@
 module.exports = function(grunt) {
-  grunt.registerTask('dist', ['clean', 'sass', 'copy', 'processhtml:dist', 'htmlmin']);
+  grunt.registerTask('dist', ['clean:all', 'sass', 'copy', 'processhtml:dist', 'copy:img', 'assets_inline:all', 'htmlmin', 'clean:dist']);
 };
