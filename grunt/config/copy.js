@@ -7,6 +7,13 @@ module.exports = {
     dest: 'build/', 
     filter: 'isFile'
   },
+  img: {
+    expand: true, 
+    flatten: false, 
+    cwd: 'src/',
+    src: ['img/**'], 
+    dest: 'build/', 
+  },
   dev: {
     expand: true, 
     flatten: false, 
