@@ -7,6 +7,10 @@ module.exports = {
     files: ['src/index.html'],
     tasks: ['copy', 'processhtml:dev']
   },
+  js: {
+    files: ['src/js/*.js'],
+    tasks: ['uglify:default']
+  },
   livereload: {
     options: { livereload: true },
     files: ['build/**/*'],

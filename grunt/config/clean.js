@@ -3,6 +3,6 @@ module.exports = {
         src: ['build']
     },
     dist: {
-        src: ['build/src', 'build/img', 'build/css']
+        src: ['build/src', 'build/img', 'build/css', 'build/js']
     }
 };
