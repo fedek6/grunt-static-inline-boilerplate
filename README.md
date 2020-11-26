@@ -23,12 +23,14 @@ You can use it in two modes:
 1. Preview - simply run grunt and go to http://localhost:9001 in your browser (watch already configured);
 2. Build - run grunt with dist command to put everything in a build directory.
 
-To watch:
+### To watch
+
 ```
 grunt
 ```
 
-To build:
+### To build
+
 ```
 grunt build
 ```
